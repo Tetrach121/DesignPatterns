@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Singleton
 {
-    class LoadBalancer
+    public class LoadBalancer
     {
         private static LoadBalancer _instance;
         private List<string> _servers = new List<string>();
@@ -14,6 +14,9 @@ namespace DesignPatterns.Singleton
 
         private static object syncLock = new object();
 
+        /// <summary>
+        /// Singleton
+        /// </summary>
         protected LoadBalancer()
         {
             _servers.Add("Server I");
@@ -23,6 +26,11 @@ namespace DesignPatterns.Singleton
             _servers.Add("Server V");
         }
 
+
+        /// <summary>
+        /// Fuction ensuring existence of single instance of SingletonClass
+        /// </summary>
+        /// <returns>Singleton instance</returns>
         public static LoadBalancer GetLoadBalancer()
         {
             if (_instance == null)
@@ -39,6 +47,9 @@ namespace DesignPatterns.Singleton
             return _instance;
         }
 
+        /// <summary>
+        /// Get "access" to random server name
+        /// </summary>
         public string Server
         {
             get

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FactoryMethod_Documents", "DesignPatterns.FactoryMethod\DesignPatterns.FactoryMethod_Documents.csproj", "{158F336E-305F-4140-94E6-656B8BD48AEA}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMethod", "DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj", "{36981E81-6E29-4D58-A552-D8E4617F3EAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Stategy\DesignPatterns.Strategy.csproj", "{A2019782-DD5E-4304-A551-87AD8C48684D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonTests", "DesignPatterns.SingletonTests\DesignPatterns.SingletonTests.csproj", "{679293BE-014A-45C3-B96A-AC715DC2D277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A2019782-DD5E-4304-A551-87AD8C48684D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2019782-DD5E-4304-A551-87AD8C48684D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2019782-DD5E-4304-A551-87AD8C48684D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679293BE-014A-45C3-B96A-AC715DC2D277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679293BE-014A-45C3-B96A-AC715DC2D277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679293BE-014A-45C3-B96A-AC715DC2D277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679293BE-014A-45C3-B96A-AC715DC2D277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
