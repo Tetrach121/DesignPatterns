@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesignPatterns.Singleton</name>
+    </assembly>
+    <members>
+        <member name="M:DesignPatterns.Singleton.LoadBalancer.#ctor">
+            <summary>
+            Singleton
+            </summary>
+        </member>
+        <member name="M:DesignPatterns.Singleton.LoadBalancer.GetLoadBalancer">
+            <summary>
+            Fuction ensuring existence of single instance of SingletonClass
+            </summary>
+            <returns>Singleton instance</returns>
+        </member>
+        <member name="P:DesignPatterns.Singleton.LoadBalancer.Server">
+            <summary>
+            Get "access" to random server name
+            </summary>
+        </member>
+    </members>
+</doc>
