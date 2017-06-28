@@ -8,7 +8,7 @@ namespace DesignPatterns.FactoryMethod_Documents
 {
     // Implementacje różnych typów Metody Wytwórczej
 
-    class Resume : Document
+    public class Resume : Document
     {
         public override void CreatePages()
         {
@@ -18,7 +18,7 @@ namespace DesignPatterns.FactoryMethod_Documents
         }
     }
 
-    class Report : Document
+    public class Report : Document
     {
         public override void CreatePages()
         {

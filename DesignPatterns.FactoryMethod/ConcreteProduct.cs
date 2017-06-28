@@ -8,42 +8,42 @@ namespace DesignPatterns.FactoryMethod_Documents
 {
     // Konkretne klasy należące do wspólnej grupy obiektów implementujące tą samą klasę/interfejs
 
-    class SkillsPage : Page
+    public class SkillsPage : Page
     {
 
     }
 
-    class EducationalPage : Page
+    public class EducationalPage : Page
     {
 
     }
 
-    class ExperiencePage : Page
+    public class ExperiencePage : Page
     {
 
     }
 
-    class ResultPage : Page
+    public class ResultPage : Page
     {
 
     }
 
-    class ConclusionPage : Page
+    public class ConclusionPage : Page
     {
 
     }
 
-    class SummaryPage : Page
+    public class SummaryPage : Page
     {
 
     }
 
-    class BibliographyPage : Page
+    public class BibliographyPage : Page
     {
 
     }
 
-    class IntroductionPage : Page
+    public class IntroductionPage : Page
     {
 
     }

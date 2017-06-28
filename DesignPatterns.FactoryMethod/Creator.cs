@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.FactoryMethod_Documents
 {
-    abstract class Document
+    public abstract class Document
     {
         private List<Page> _pages = new List<Page>();
 

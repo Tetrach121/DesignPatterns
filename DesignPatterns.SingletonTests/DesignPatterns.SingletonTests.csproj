@@ -54,9 +54,29 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Decorator\DesignPatterns.Decorator.csproj">
+      <Project>{62a480a3-e576-44b5-9ecd-6026117c536a}</Project>
+      <Name>DesignPatterns.Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.FactoryMethod\DesignPatterns.FactoryMethod_Documents.csproj">
+      <Project>{158f336e-305f-4140-94e6-656b8bd48aea}</Project>
+      <Name>DesignPatterns.FactoryMethod_Documents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Iterator\DesignPatterns.Iterator.csproj">
+      <Project>{bde854ed-45ac-4f72-8ade-c46dc218facb}</Project>
+      <Name>DesignPatterns.Iterator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
       <Project>{6F5A457E-4C9E-4A8C-ACBF-168D4E53AE21}</Project>
       <Name>DesignPatterns.Singleton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Stategy\DesignPatterns.Strategy.csproj">
+      <Project>{a2019782-dd5e-4304-a551-87ad8c48684d}</Project>
+      <Name>DesignPatterns.Strategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.TemplateMethod\DesignPatterns.TemplateMethod.csproj">
+      <Project>{36981e81-6e29-4d58-a552-d8e4617f3eac}</Project>
+      <Name>DesignPatterns.TemplateMethod</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
